@@ -1,0 +1,27 @@
+{
+  "timeZone": "America/Chicago",
+  "dependencies": {
+    "libraries": [{
+      "userSymbol": "BBLog",
+      "libraryId": "1kzzYZhgODZluRmjsjh7t3O-ftmFAF9h1jaRHU0rOdf9irF0VUiJW33Kt",
+      "version": "13"
+    }, {
+      "userSymbol": "PipelineDeals",
+      "libraryId": "1yE4K-1EKd1FugMfTynP_I1EY4Rmou2_R9_wPXoLHeGRUWZDUy7590Guo",
+      "version": "9"
+    }, {
+      "userSymbol": "Assert",
+      "libraryId": "1R-rxUHuQU0ez95FlZz9fxqifbYFszHnukqzv_3Uk5zM3eG4eRBrh_E1M",
+      "version": "16"
+    }, {
+      "userSymbol": "NewProjectsConfig",
+      "libraryId": "1XWwnK_DG_EMh_WY6GadlwpXQ6UIn4ITsqgv_lbt6fdCkTzvJZlPddDbb",
+      "version": "13"
+    }]
+  },
+  "webapp": {
+    "access": "ANYONE_ANONYMOUS",
+    "executeAs": "USER_DEPLOYING"
+  },
+  "exceptionLogging": "STACKDRIVER"
+}
