@@ -96,13 +96,18 @@ function eventHandler_(config, args) {
       handleError = Assert.HandleError.THROW
     }
 
+    var adminEmail = NewProjectsConfig.get({
+      id: NewProjectsConfig.Ids.ADMIN_EMAIL_ADDRESS,
+      handle: npcHandle,
+    })
+
     var assertConfig = {
       error:          error,
       userMessage:    config[1],
       log:            Log_,
       handleError:    handleError, 
       sendErrorEmail: SEND_ERROR_EMAIL_, 
-      emailAddress:   ADMIN_EMAIL_ADDRESS_,
+      emailAddress:   adminEmail,
       scriptName:     SCRIPT_NAME,
       scriptVersion:  SCRIPT_VERSION, 
     }
